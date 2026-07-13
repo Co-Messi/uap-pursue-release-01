@@ -2,18 +2,19 @@
   <img src="cover.png" alt="THE U.S. GOVERNMENT HAS CONFIRMED THEY ARE HERE." width="480"/>
 </p>
 
-<h1 align="center">PURSUE — Complete Archive (Release 01 + 02)</h1>
+<h1 align="center">PURSUE — Complete Archive (Releases 01–04)</h1>
 
 <p align="center">
-  <b>Both official UAP declassification releases by the U.S. Department of War.</b><br/>
+  <b>All four official UAP declassification releases by the U.S. Department of War.</b><br/>
   Sourced verbatim from <a href="https://www.war.gov/UFO/">war.gov/UFO</a><br/>
   UAP = Unidentified Anomalous Phenomena &nbsp;·&nbsp; PURSUE = Presidential Unsealing and Reporting System for UAP Encounters
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Releases-2-red?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Documents-132-blue?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Videos-85-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Releases-4-red?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Documents-178-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Photos-21-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Videos-89-blue?style=flat-square"/>
   <img src="https://img.shields.io/badge/Source-war.gov%2FUFO-black?style=flat-square"/>
   <img src="https://img.shields.io/badge/Status-Declassified-brightgreen?style=flat-square"/>
 </p>
@@ -33,6 +34,13 @@
 > **All files — PDFs, photographs, and videos — are on Google Drive, publicly accessible, no sign-in required.**
 
 ### [⬇️ Download Full Archive on Google Drive](https://drive.google.com/drive/folders/1j-cW20aJ1tGMDag6cTldIKtXMMFdpRKo?usp=sharing)
+
+| Release | Drive folder |
+|---|---|
+| Release 01 | [Open →](https://drive.google.com/drive/folders/1TT4r4WArucPdqp-nsvPIlnaU1qWb6iuQ?usp=sharing) |
+| Release 02 | [Open →](https://drive.google.com/drive/folders/1i9H6jjfqVjiwfxR8uOZY4oRUrkoGmvY3?usp=sharing) |
+| Release 03 | [Open →](https://drive.google.com/drive/folders/1bRpy5ZWefTI8fReKadPpb4Zel2DWoJJP?usp=sharing) |
+| Release 04 | [Open →](https://drive.google.com/drive/folders/14l37uuI74s7DNmjDP6IR-PbX1OVuCWAQ?usp=sharing) |
 
 ---
 
@@ -93,6 +101,59 @@ Documents in this release:
 
 ---
 
+## Release 03 — June 12, 2026
+
+The third tranche under PURSUE. Heavy on declassified intelligence files — 43 PDFs from CIA, DOW, and FBI covering historic UFO investigations (Project Blue Book, US Air Force analyses, Naval reports, AARO case files) plus digital renderings of recent Western US and Northeastern US unresolved incidents.
+
+<p>
+  <img src="https://img.shields.io/badge/PDFs-43-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Images-7-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Videos-4-blue?style=flat-square"/>
+</p>
+
+| Folder | Contents | Size |
+|---|---|---|
+| `release_03_documents/` | 43 declassified PDFs + 7 JPG renderings | ~250 MB |
+| `AARO061226/` | 4 DoD UAP videos | ~120 MB |
+
+Agency breakdown of the documents:
+
+| Agency | Range | Count | Notes |
+|---|---|---|---|
+| CIA | `CIA-UAP-002` – `CIA-UAP-019` | 18 | Project Blue Book Special Report #14, Kardashev/Sakharov speculative paper, Sary Shagan weapons range, Soviet conversations, etc. |
+| DOW | `DOW-UAP-D077` – `DOW-UAP-D088` | 12 | Western US Event narratives (5), US Army Flying Saucer Study (1949), US Navy Flying Discs report (1948), Air Force analyses 1–172 |
+| FBI | `FBI-UAP-D001` – `FBI-UAP-D020` | 20 | 13 PDFs (Colorado Springs 2022, Northeastern US 2024, Northeastern orb sighting 2026, historic field offices) + 7 JPG digital renderings of two unresolved incidents |
+
+The 4 videos in `AARO061226/` are DoD footage released alongside the document bundle.
+
+---
+
+## Release 04 — July 10, 2026
+
+The fourth and most recent tranche under PURSUE. A small but targeted intelligence release: three FBI / CIA records tying off historic investigative threads.
+
+<p>
+  <img src="https://img.shields.io/badge/PDFs-3-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Videos-0-lightgrey?style=flat-square"/>
+</p>
+
+| Folder | Contents | Size |
+|---|---|---|
+| `Documents/` | 3 declassified PDFs | ~15 MB |
+| `uap_release04_videos_071026/` | (reserved for video bundle — currently empty) | — |
+
+Documents in this release:
+
+| File | Agency | Description |
+|---|---|---|
+| `CIA-UAP-D020` | CIA | Memorandum on Unconventional Aircraft Sightings (1955) |
+| `CIA-UAP-D021` | CIA | Analysis of Unconventional Aircraft Sightings (1955) |
+| `FBI-UAP-D014` | FBI | Correspondence Relating to UFO Sightings (1967–1974) |
+
+> The video folder is published but currently empty — check back for the video bundle to be added.
+
+---
+
 ## Download Yourself
 
 ### Release 01
@@ -112,6 +173,10 @@ python download_release02.py
 ```
 
 Downloads the document bundle via chunked range requests (Akamai blocks full-file streaming) and streams the video archive directly from CloudFront.
+
+### Releases 03 + 04
+
+These releases are currently distributed only via the [Google Drive folder](https://drive.google.com/drive/folders/1j-cW20aJ1tGMDag6cTldIKtXMMFdpRKo?usp=sharing) above. Self-contained `download_release03.py` / `download_release04.py` scripts will be added once war.gov publish the corresponding direct-download URLs.
 
 ### Add Cinematic Music to Release 01 Videos
 
